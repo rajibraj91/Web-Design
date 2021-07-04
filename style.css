@@ -215,3 +215,41 @@ img {
 }
 
 /* contact-section */
+
+
+
+/* footer-section */
+.footer-section {
+	padding: 120px 0;
+	background: #f8f8f8;
+}
+.footer-section .section-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-item {
+	width: calc(100% / 4);
+}
+.footer-content {
+	padding: 15px;
+}
+.footer-content h2 {
+	margin-bottom: 25px;
+}
+.footer-content p {}
+.footer-content ul {}
+.footer-content ul li {
+	list-style: none;
+}
+.footer-content ul li a {
+	display: inline-block;
+	padding: 5px 0;
+	color: #000;
+	text-decoration: none;
+	transition: all .3s ease;
+	text-transform: capitalize;
+}
+.footer-content ul li a:hover {
+	color: red;
+}
+/* footer-section */
